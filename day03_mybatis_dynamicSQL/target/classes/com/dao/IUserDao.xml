@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.IUserDao">
+    <!-- 抽取重复的sql语句 -->
+    <sql id="defaultUser">
+        select * from user
+    </sql>
+    <!-- 配置查询所有 -->
+    <select id="findAll" resultType="com.domain.User">
+        <include refid="defaultUser"></include>
+    </select>
+
+    <!-- 指定查询 -->
+    <select id="findById" parameterType="java.lang.Integer" resultType="com.domain.User">
+        select * from user where id=#{uid}
+    </select>
+
+    <select id="findByName" parameterType="String" resultType="com.domain.User">
+        select * from user where username like '%${value}%'
+    </select>
+    <!-- 获取总用户数 -->
+    <select id="findTotal" resultType="java.lang.Integer">
+        select count(id) from user
+    </select>
+    <!-- 根据部分资料查询 -->
+    <select id="findUserByCondition" resultType="com.domain.User" parameterType="user">
+        select * from user
+        <where>
+            <if test="username != null">
+                and username = #{username}
+            </if>
+            <if test="sex != null">
+                and sex = #{sex}
+            </if>
+        </where>
+    </select>
+    <!-- 根据QueryVO中的id集合实现查询用户列表 -->
+    <select id="finduserInIds" resultType="com.domain.User" parameterType="com.domain.QueryVo">
+        <include refid="defaultUser"></include>
+        <where>
+            <if test="ids != null and ids.size() > 0">
+                <foreach collection="ids" open="id in (" close=")" item="id" separator=",">
+                    #{id}
+                </foreach>
+            </if>
+        </where>
+    </select>
+</mapper>

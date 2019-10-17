@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/day01_01mybatis/day01_01mybatis.iml" filepath="$PROJECT_DIR$/day01_01mybatis/day01_01mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01_mybatis_annoutation/day01_mybatis_annoutation.iml" filepath="$PROJECT_DIR$/day01_mybatis_annoutation/day01_mybatis_annoutation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01_mybatis_dao/day01_mybatis_dao.iml" filepath="$PROJECT_DIR$/day01_mybatis_dao/day01_mybatis_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01_mybatis_design/day01_mybatis_design.iml" filepath="$PROJECT_DIR$/day01_mybatis_design/day01_mybatis_design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02_myhabits_DAO/day02_myhabits_DAO.iml" filepath="$PROJECT_DIR$/day02_myhabits_DAO/day02_myhabits_DAO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02_myhabits_baseCDUR/day02_myhabits_baseCDUR.iml" filepath="$PROJECT_DIR$/day02_myhabits_baseCDUR/day02_myhabits_baseCDUR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02_myhabits_differentNameWithDB/day02_myhabits_differentNameWithDB.iml" filepath="$PROJECT_DIR$/day02_myhabits_differentNameWithDB/day02_myhabits_differentNameWithDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_datasourceAndTx/day03_datasourceAndTx.iml" filepath="$PROJECT_DIR$/day03_datasourceAndTx/day03_datasourceAndTx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_maven_JNDI/day03_maven_JNDI.iml" filepath="$PROJECT_DIR$/day03_maven_JNDI/day03_maven_JNDI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_mybatis_dynamicSQL/day03_mybatis_dynamicSQL.iml" filepath="$PROJECT_DIR$/day03_mybatis_dynamicSQL/day03_mybatis_dynamicSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_mybatits_manytomany/day03_mybatits_manytomany.iml" filepath="$PROJECT_DIR$/day03_mybatits_manytomany/day03_mybatits_manytomany.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_myhabits_OneToMany/day03_myhabits_OneToMany.iml" filepath="$PROJECT_DIR$/day03_myhabits_OneToMany/day03_myhabits_OneToMany.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_01lazy/day04_01lazy.iml" filepath="$PROJECT_DIR$/day04_01lazy/day04_01lazy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_02cache/day04_02cache.iml" filepath="$PROJECT_DIR$/day04_02cache/day04_02cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_03AnnoutationMyBatis/day04_03AnnoutationMyBatis.iml" filepath="$PROJECT_DIR$/day04_03AnnoutationMyBatis/day04_03AnnoutationMyBatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_04anno_OneToMany/day04_04anno_OneToMany.iml" filepath="$PROJECT_DIR$/day04_04anno_OneToMany/day04_04anno_OneToMany.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatisAllTest.iml" filepath="$PROJECT_DIR$/mybatisAllTest.iml" />
+    </modules>
+  </component>
+</project>

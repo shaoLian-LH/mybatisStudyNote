@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/day03_maven_JNDI" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/day01_01mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_mybatis_annoutation/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_mybatis_dao/pom.xml" />
+        <option value="$PROJECT_DIR$/day01_mybatis_design/pom.xml" />
+        <option value="$PROJECT_DIR$/day02_myhabits_baseCDUR/pom.xml" />
+        <option value="$PROJECT_DIR$/day02_myhabits_differentNameWithDB/pom.xml" />
+        <option value="$PROJECT_DIR$/dat02_mybatis_DAO/pom.xml" />
+        <option value="$PROJECT_DIR$/day02_myhabits_DAO/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_datasourceAndTx/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_mybatis_dynamicSQL/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_myhabits_OneToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_mybatits_manytomany/pom.xml" />
+        <option value="$PROJECT_DIR$/day03_maven_JNDI/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_01lazy/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_02cache/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_03AnnoutationMyBatis/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_anno_OneToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_04anno_OneToMany/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

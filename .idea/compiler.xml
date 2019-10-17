@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day03_datasourceAndTx" />
+        <module name="day01_01mybatis" />
+        <module name="day04_02cache" />
+        <module name="day04_04anno_OneToMany" />
+        <module name="day03_myhabits_OneToMany" />
+        <module name="day04_03AnnoutationMyBatis" />
+        <module name="day01_mybatis_annoutation" />
+        <module name="day02_myhabits_differentNameWithDB" />
+        <module name="day03_maven_JNDI" />
+        <module name="day02_myhabits_DAO" />
+        <module name="day04_01lazy" />
+        <module name="day02_myhabits_baseCDUR" />
+        <module name="day01_mybatis_dao" />
+        <module name="day03_mybatits_manytomany" />
+        <module name="day01_mybatis_design" />
+        <module name="day03_mybatis_dynamicSQL" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day01_01mybatis" target="1.5" />
+      <module name="day01_mybatis_annoutation" target="1.5" />
+      <module name="day01_mybatis_dao" target="1.5" />
+      <module name="day01_mybatis_design" target="1.5" />
+      <module name="day02_mybatis_DAO" target="1.5" />
+      <module name="day02_myhabits_baseCDUR" target="1.5" />
+      <module name="day02_myhabits_DAO" target="1.5" />
+      <module name="day02_myhabits_differentNameWithDB" target="1.5" />
+      <module name="day03_datasourceAndTx" target="1.5" />
+      <module name="day03_maven_JNDI" target="1.7" />
+      <module name="day03_mybatis_dynamicSQL" target="1.5" />
+      <module name="day03_mybatits_manytomany" target="1.5" />
+      <module name="day03_myhabits_OneToMany" target="1.5" />
+      <module name="day04_01lazy" target="1.5" />
+      <module name="day04_02cache" target="1.5" />
+      <module name="day04_03AnnoutationMyBatis" target="1.5" />
+      <module name="day04_04anno_OneToMany" target="1.5" />
+      <module name="day04_anno_OneToMany" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
